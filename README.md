@@ -55,9 +55,9 @@
 
 # Windows版本
 ### 最新版下载地址：1.0.2 
-###  https://github.com/kgyzorg/minerproxy/releases/download/1.0.2/Kgyz_win_1.0.2.exe
+###  https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/Kgyz_win_1.1.3.exe
 ### 加速下载地址：1.0.1 
-###  https://ghproxy.com/https://github.com/kgyzorg/minerproxy/releases/download/1.0.2/Kgyz_win_1.0.2.exe
+###  https://ghproxy.com/https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/Kgyz_win_1.1.3.exe
 
 
 # Windows-使用方法
@@ -100,20 +100,20 @@ chmod 777 mtgproxy_linux_amd64
 ## 设置后台 运行行程序
 
 ```bash
-wget -P /home/mtgproxy/ https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/run.sh
+wget -P /home/mtgproxy/ https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/mtgrun.sh
 ```
 
 ```bash
-sh run.sh
+sh mtgrun.sh
 ```
 
 ### 加入开机运行 修改/etc/rc.local 
 ```bash
 vim /etc/rc.local
 ```
-### 加入下面
+### 加入下面内容
 ```bash
-sh /home/mtgproxy/run.sh
+sh /home/mtgproxy/mtgrun.sh
 ```
 
 
