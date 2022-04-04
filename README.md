@@ -54,9 +54,9 @@
 
 
 # Windows版本
-### 最新版下载地址：1.0.2 
+### 最新版下载地址：1.1.3
 ###  https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/Kgyz_win_1.1.3.exe
-### 加速下载地址：1.0.1 
+### 加速下载地址：1.1.3
 ###  https://ghproxy.com/https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/Kgyz_win_1.1.3.exe
 
 
