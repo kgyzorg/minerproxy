@@ -97,25 +97,14 @@ chmod 777 mtgproxy_linux_amd64
 
 
 
-## 设置后台 运行行程序
+## 设置开机启动
 
 ```bash
-wget -P /home/mtgproxy/ https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/mtgrun.sh
+wget -P /etc/profile.d/ https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/mtgrun.sh
 ```
-
 ```bash
-sh mtgrun.sh
+chmod +x /etc/profile.d/mtgrun.sh
 ```
-
-### 加入开机运行 修改/etc/rc.local 
-```bash
-vim /etc/rc.local
-```
-### 加入下面内容
-```bash
-sh /home/mtgproxy/mtgrun.sh
-```
-
 
 
 
