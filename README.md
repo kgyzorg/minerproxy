@@ -75,31 +75,34 @@ Kgyz_win_1.0.1.exe
 
 # linux 安装说明
 
+第一步：
 ```bash
 mkdir /home/mtgproxy
-wget -P /home/mtgproxy/ https://github.com/kgyzorg/minerproxy/releases/download/1.0.2/mtgproxy_linux_amd64.7z
 ```
-或
+第二步：
+```bash
+wget -P /home/mtgproxy/ https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/mtgproxy_linux_amd64
+```
+第三步：
+```bash
+chmod 777 mtgproxy_linux_amd64
+```
+第四步：
+```bash
+./mtgproxy_linux_amd64
+```
+安装完毕 
+1、自动初始化 2、手动设置 -> #默认 端口 23456 http://localhost:23456
+
+
+
+
+## 设置后台 运行行程序
 
 ```bash
-curl -o /home/mtgproxy/mtgproxy_linux_amd64.7z https://ghproxy.com/https://github.com/kgyzorg/minerproxy/releases/download/1.0.2/mtgproxy_linux_amd64.7z
-cd /home/mtgproxy
-tar -zxvf mtgproxy_linux_amd64.7z
-chmod 777 mtgproxy
+wget -P /home/mtgproxy/ https://github.com/kgyzorg/minerproxy/releases/download/1.1.3/run.sh
 ```
 
-
-### 首次初始化
-```bash
-./mtgproxy 
-```
-1、自动初始化
-2、手动设置
-->
-#默认 端口 23456
-http://localhost:23456
-
-### 后台 运行行程序
 ```bash
 sh run.sh
 ```
