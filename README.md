@@ -54,10 +54,10 @@
 
 
 # Windows版本
-### 最新版下载地址：1.0.1 
-###  https://github.com/kgyzorg/minerproxy/releases/download/1.0.1/Kgyz_win_1.0.1.exe
+### 最新版下载地址：1.0.2 
+###  https://github.com/kgyzorg/minerproxy/releases/download/1.0.2/Kgyz_win_1.0.2.exe
 ### 加速下载地址：1.0.1 
-###  https://ghproxy.com/https://github.com/kgyzorg/minerproxy/releases/download/1.0.1/Kgyz_win_1.0.1.exe
+###  https://ghproxy.com/https://github.com/kgyzorg/minerproxy/releases/download/1.0.2/Kgyz_win_1.0.2.exe
 
 
 # Windows-使用方法
@@ -77,12 +77,12 @@ Kgyz_win_1.0.1.exe
 
 ```bash
 mkdir /home/mtgproxy
-wget -P /home/mtgproxy/ https://github.com/xpkill/mtgproxy/releases/download/v1.0.0/mtgproxy_linux_amd64.7z
+wget -P /home/mtgproxy/ https://github.com/kgyzorg/minerproxy/releases/download/1.0.2/mtgproxy_linux_amd64.7z
 ```
 或
 
 ```bash
-curl -o /home/mtgproxy/mtgproxy_linux_amd64.7z https://ghproxy.com/https://github.com/xpkill/mtgproxy/releases/download/v1.0.0/mtgproxy_linux_amd64.7z
+curl -o /home/mtgproxy/mtgproxy_linux_amd64.7z https://ghproxy.com/https://github.com/kgyzorg/minerproxy/releases/download/1.0.2/mtgproxy_linux_amd64.7z
 cd /home/mtgproxy
 tar -zxvf mtgproxy_linux_amd64.7z
 chmod 777 mtgproxy
@@ -120,4 +120,4 @@ sh /home/mtgproxy/run.sh
 # 矿工交流 TG电报群：https://t.me/+VR_Ri2OfBnwyNWRh
 ### 联系我们：
 [Telegram 讨论群组(欢迎向我们提出建议)](https://t.me/+VR_Ri2OfBnwyNWRh)
-[GitHub](https://github.com/MinerPr0xy/MinerProxy) 
+[GitHub](https://github.com/kgyzorg/minerproxy/) 
